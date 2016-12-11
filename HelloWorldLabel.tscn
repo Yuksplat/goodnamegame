@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://helloWorldScript.gd" type="Script" id=1]
+
+[node name="HelloWorldLabel" type="RichTextLabel"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 285.0
+margin/top = 300.0
+margin/right = 651.0
+margin/bottom = 340.0
+bbcode/enabled = false
+bbcode/bbcode = ""
+visible_characters = -1
+script/script = ExtResource( 1 )
+
+
