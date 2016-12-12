@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://img/badtable.png" type="Texture" id=1]
+
+[node name="badtable" type="Node2D"]
+
+transform/pos = Vector2( 69.1173, 57.2651 )
+transform/scale = Vector2( 1.05138, 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+
+transform/pos = Vector2( -8.70108, -11.213 )
+transform/scale = Vector2( 0.226899, 0.272526 )
+texture = ExtResource( 1 )
+
+
