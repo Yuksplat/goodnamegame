@@ -36,9 +36,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6568542"
-     inkscape:cx="315.84049"
-     inkscape:cy="592.71484"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="311.24429"
+     inkscape:cy="544.9613"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -67,27 +67,34 @@
     <circle
        style="fill:#000000;fill-opacity:1"
        id="path4210"
-       cx="-293.12506"
-       cy="-457.23721"
+       cx="-237.83647"
+       cy="-493.93448"
        r="28"
        transform="scale(-1,-1)" />
     <circle
        style="fill:#808080;fill-opacity:1"
        id="path4223"
-       cx="457.23721"
-       cy="-293.12503"
+       cx="493.93448"
+       cy="-237.83644"
        r="26"
        transform="matrix(4.371139e-8,1,-1,4.371139e-8,0,0)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="279.82428"
-       y="471.82706"
+       x="224.53569"
+       y="508.52435"
        id="text4225"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4227"
-         x="279.82428"
-         y="471.82706">1</tspan></text>
+         x="224.53569"
+         y="508.52435">1</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1"
+       id="rect4253"
+       width="64"
+       height="64"
+       x="205.83647"
+       y="461.93448" />
   </g>
 </svg>

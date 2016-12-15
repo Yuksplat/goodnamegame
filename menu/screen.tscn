@@ -88,6 +88,8 @@ selected = -1
 items = [  ]
 script/script = ExtResource( 7 )
 
+[connection signal="item_selected" from="OptionButton" to="HelloWorldLabel" method="_on_OptionButton_item_selected"]
+
 [connection signal="item_selected" from="OptionButton" to="table1" method="_on_OptionButton_item_selected"]
 
 [connection signal="item_selected" from="OptionButton" to="table2" method="_on_OptionButton_item_selected"]

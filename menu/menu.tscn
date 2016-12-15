@@ -1,0 +1,238 @@
+[gd_scene load_steps=4 format=1]
+
+[ext_resource path="res://test_menu.gd" type="Script" id=1]
+[ext_resource path="res://img/button_plus.png" type="Texture" id=2]
+[ext_resource path="res://img/button_minus.png" type="Texture" id=3]
+
+[node name="Node" type="Node"]
+
+[node name="Panel" type="Panel" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 352.0
+margin/bottom = 400.0
+script/script = ExtResource( 1 )
+
+[node name="Button_save" type="Button" parent="Panel"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 64.0
+margin/top = 352.0
+margin/right = 105.0
+margin/bottom = 372.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Save"
+flat = false
+
+[node name="Button_revert" type="Button" parent="Panel"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 144.0
+margin/top = 352.0
+margin/right = 197.0
+margin/bottom = 372.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Revert"
+flat = false
+
+[node name="Button_close" type="Button" parent="Panel"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 240.0
+margin/top = 352.0
+margin/right = 287.0
+margin/bottom = 372.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Close"
+flat = false
+
+[node name="Button_plus_half" type="Button" parent="Panel"]
+
+rect/scale = Vector2( 0.5, 0.5 )
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 224.0
+margin/top = 96.0
+margin/right = 268.0
+margin/bottom = 134.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 2 )
+flat = false
+
+[node name="Button_plus" type="Button" parent="Panel"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 224.0
+margin/top = 144.0
+margin/right = 268.0
+margin/bottom = 182.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 2 )
+flat = false
+
+[node name="Button_plus_double" type="Button" parent="Panel"]
+
+rect/scale = Vector2( 2, 2 )
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 224.0
+margin/top = 208.0
+margin/right = 268.0
+margin/bottom = 246.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 2 )
+flat = false
+
+[node name="Button_minus_half" type="Button" parent="Panel"]
+
+rect/scale = Vector2( 0.5, 0.5 )
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 96.0
+margin/top = 96.0
+margin/right = 140.0
+margin/bottom = 134.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 3 )
+flat = false
+
+[node name="Button_minus" type="Button" parent="Panel"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 80.0
+margin/top = 144.0
+margin/right = 124.0
+margin/bottom = 182.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 3 )
+flat = false
+
+[node name="Button_minus_double" type="Button" parent="Panel"]
+
+rect/scale = Vector2( 2, 2 )
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 32.0
+margin/top = 208.0
+margin/right = 76.0
+margin/bottom = 246.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+icon = ExtResource( 3 )
+flat = false
+
+[node name="title" type="Label" parent="Panel"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 112.0
+margin/top = 48.0
+margin/right = 230.0
+margin/bottom = 62.0
+text = "Value Modification"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label1" type="Label" parent="Panel"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 160.0
+margin/top = 96.0
+margin/right = 208.0
+margin/bottom = 112.0
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label2" type="Label" parent="Panel"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 160.0
+margin/top = 144.0
+margin/right = 208.0
+margin/bottom = 176.0
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Label3" type="Label" parent="Panel"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 160.0
+margin/top = 208.0
+margin/right = 208.0
+margin/bottom = 272.0
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[connection signal="pressed" from="Panel/Button_plus_half" to="Panel" method="_on_Button_plus_half_pressed"]
+
+[connection signal="pressed" from="Panel/Button_plus" to="Panel" method="_on_Button_plus_pressed"]
+
+[connection signal="pressed" from="Panel/Button_plus_double" to="Panel" method="_on_Button_plus_double_pressed"]
+
+[connection signal="pressed" from="Panel/Button_minus_half" to="Panel" method="_on_Button_minus_half_pressed"]
+
+[connection signal="pressed" from="Panel/Button_minus" to="Panel" method="_on_Button_minus_pressed"]
+
+[connection signal="pressed" from="Panel/Button_minus_double" to="Panel" method="_on_Button_minus_double_pressed"]
+
+

@@ -71,14 +71,6 @@ friction = 1.0
 bounce = 0.0
 __meta__ = { "_edit_lock_":true }
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="unit_token_gray_1/StaticBody2D"]
-
-build_mode = 0
-polygon = Vector2Array( -32, -32, -32, 32, 32, 32, 32, -32 )
-shape_range = Vector2( 0, 0 )
-trigger = false
-__meta__ = { "_edit_lock_":true }
-
 [node name="unit_token_gray_2" type="Sprite" parent="."]
 
 transform/pos = Vector2( 240, 48 )
@@ -98,14 +90,6 @@ constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
-__meta__ = { "_edit_lock_":true }
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="unit_token_gray_2/StaticBody2D"]
-
-build_mode = 0
-polygon = Vector2Array( -32, -32, -32, 32, 32, 32, 32, -32 )
-shape_range = Vector2( 0, 0 )
-trigger = false
 __meta__ = { "_edit_lock_":true }
 
 [node name="unit_token_gray_3" type="Sprite" parent="."]
@@ -129,14 +113,6 @@ friction = 1.0
 bounce = 0.0
 __meta__ = { "_edit_lock_":true }
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="unit_token_gray_3/StaticBody2D"]
-
-build_mode = 0
-polygon = Vector2Array( -32, -32, -32, 32, 32, 32, 32, -32 )
-shape_range = Vector2( 0, 0 )
-trigger = false
-__meta__ = { "_edit_lock_":true }
-
 [node name="unit_token_red_blank" type="Sprite" parent="."]
 
 transform/pos = Vector2( 48, 144 )
@@ -156,15 +132,6 @@ constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
-__meta__ = { "_edit_lock_":true }
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="unit_token_red_blank/StaticBody2D"]
-
-transform/pos = Vector2( -6, -6 )
-build_mode = 0
-polygon = Vector2Array( -26, -26, -26, 38, 38, 38, 38, -26 )
-shape_range = Vector2( 0, 0 )
-trigger = false
 __meta__ = { "_edit_lock_":true }
 
 [node name="unit_token_red_1" type="Sprite" parent="."]
@@ -188,15 +155,6 @@ friction = 1.0
 bounce = 0.0
 __meta__ = { "_edit_lock_":true }
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="unit_token_red_1/StaticBody2D"]
-
-transform/pos = Vector2( -6, -6 )
-build_mode = 0
-polygon = Vector2Array( -26, -26, -26, 38, 38, 38, 38, -26 )
-shape_range = Vector2( 0, 0 )
-trigger = false
-__meta__ = { "_edit_lock_":true }
-
 [node name="unit_token_red_2" type="Sprite" parent="."]
 
 transform/pos = Vector2( 240, 144 )
@@ -218,15 +176,6 @@ friction = 1.0
 bounce = 0.0
 __meta__ = { "_edit_lock_":true }
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="unit_token_red_2/StaticBody2D"]
-
-transform/pos = Vector2( -6, -6 )
-build_mode = 0
-polygon = Vector2Array( -26, -26, -26, 38, 38, 38, 38, -26 )
-shape_range = Vector2( 0, 0 )
-trigger = false
-__meta__ = { "_edit_lock_":true }
-
 [node name="unit_token_red_3" type="Sprite" parent="."]
 
 transform/pos = Vector2( 336, 144 )
@@ -246,15 +195,6 @@ constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
-__meta__ = { "_edit_lock_":true }
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="unit_token_red_3/StaticBody2D"]
-
-transform/pos = Vector2( -6, -6 )
-build_mode = 0
-polygon = Vector2Array( -26, -26, -26, 38, 38, 38, 38, -26 )
-shape_range = Vector2( 0, 0 )
-trigger = false
 __meta__ = { "_edit_lock_":true }
 
 
